@@ -37,3 +37,12 @@ if __name__ == "__main__":
     owner1 = BankAccount("Hannah")
     print(owner1.is_open)
     print(owner1.balance)
+
+    owner1.open()
+    print (owner1.is_open)
+    owner1.balance = 2000
+    print(owner1.balance)
+    owner1.deposit(15000)
+    print(owner1.balance)
+    owner1.withdraw(500)
+    print(owner1.balance)
